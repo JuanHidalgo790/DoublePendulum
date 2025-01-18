@@ -36,11 +36,11 @@ $l_{2}$ - length of bar 2 [m]
 
 ## Time of the simulation
 
-$t_{0}$ - Initial time [s]
+$t_{0}$ - initial time [s]
 
-$t_{f}$ - Final time [s]
+$t_{f}$ - final time [s]
 
-$\Delta t$ - Timestep [s]
+$\Delta t$ - timestep [s]
 
 ## Initial Conditions
 
