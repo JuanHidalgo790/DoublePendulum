@@ -1,9 +1,16 @@
 # DoublePendulum
-Code to simulate the dynamics of a double pendulum
+Code to simulate the dynamics of a double pendulum with two masses
 
 ## Problem
 
-A double pendulum consisting on two bars of mass $m_{1}$ and $m_{2}$ 
+A double pendulum consisting of two bars, without weight, linking two masses $m_{1}$ and $m_{2}$.
+
+![DoublePendulumFigure](https://github.com/user-attachments/assets/cc0b019d-a585-4984-b75a-c17149261679)
+
+The dynamics of this system is given by two ODEs
+
+$$(m_{1}+m_{2})L_{1}(L_{1}\ddot{\theta}_{1}+g\sin{\theta_{1}}$$
+
 
 ![DoublePendulumAnimation](https://github.com/user-attachments/assets/a4c06ce3-de69-459f-8b84-a8531d59c398)
 
