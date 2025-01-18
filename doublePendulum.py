@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 
 L1 = 1   # length of bar 1 [m]
 L2 = 1   # length of bar 2 [m]
-m1 = 1   # mass of bar 1 [kg]
-m2 = 1   # mass of bar 2 [kg]
+m1 = 1   # mass 1 [kg]
+m2 = 1   # mass 2 [kg]
 g = 9.81 # gravity [m/s^2]
 
 ## Simulation time ########################################################################################
@@ -23,12 +23,12 @@ nt = int(np.round(tf/delta_t))          # number of time steps
 tspan = np.linspace(t0, tf, nt)         # time span [s]
 
 ## Initial Conditions ######################################################################################
-y1 = np.pi/4        # initial angle of bar 1 [rad]
-dy1 = 0             # initial angular velocity of bar 1 [rad/s]
-y2 = 2*np.pi/4        # initial angle of bar 2 [rad]
-dy2 = -np.pi/4      # initial angular velocity of bar 2 [rad/s]
+theta1 = np.pi/4        # initial angle of bar 1 [rad]
+dtheta1 = 0             # initial angular velocity of bar 1 [rad/s]
+theta2 = 2*np.pi/4        # initial angle of bar 2 [rad]
+dtheta2 = -np.pi/4      # initial angular velocity of bar 2 [rad/s]
 
-Y0 = [y1, dy1, y2, dy2]                       # initial conditions vector
+Y0 = [theta1, dtheta1, theta2, dtheta2]                       # initial conditions vector
 ###########################################################################################################
 ###########################################################################################################
 
@@ -71,37 +71,37 @@ def pendulum_animation(T1, Y1):
 
 pendulum_animation(tspan,Y)
 
-# plot of the dynamic response of bar 1
+# plot of the dynamic response of mass 1
 fig, ax = plt.subplots()
 plt.plot(tspan, Y[:,0],'r')
-ax.set_title('Dynamic Response of Bar 1')
+ax.set_title('Dynamic Response of Mass 1')
 ax.set_xlabel('t [s]')
 ax.set_ylabel('x(t) [m]')
 ax.grid()
 ax.set_axisbelow(True)
 
-# plot of the phase diagram of bar 1
+# plot of the phase diagram of mass 1
 fig, ax = plt.subplots()
 plt.plot(Y[:,0], Y[:,1], 'g')
-ax.set_title('Phase Diagram of Bar 1')
+ax.set_title('Phase Diagram of Mass 1')
 ax.set_xlabel('x(t) [m]')
 ax.set_ylabel('xdot(t) [m/s]')
 ax.grid()
 ax.set_axisbelow(True)
 
-# plot of the dynamic response of bar 2
+# plot of the dynamic response of mass 2
 fig, ax = plt.subplots()
 plt.plot(tspan, Y[:,2],'r')
-ax.set_title('Dynamic Response of Bar 2')
+ax.set_title('Dynamic Response of Mass 2')
 ax.set_xlabel('t [s]')
 ax.set_ylabel('x(t) [m]')
 ax.grid()
 ax.set_axisbelow(True)
 
-# plot of the phase diagram of bar 2
+# plot of the phase diagram of mass 2
 fig, ax = plt.subplots()
 plt.plot(Y[:,2], Y[:,3], 'g')
-ax.set_title('Phase Diagram of Bar 2')
+ax.set_title('Phase Diagram of Mass 2')
 ax.set_xlabel('x(t) [m]')
 ax.set_ylabel('xdot(t) [m/s]')
 ax.grid()
