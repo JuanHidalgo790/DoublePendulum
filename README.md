@@ -10,7 +10,7 @@ A double pendulum consisting of two bars, without weight, linking two masses $m_
 
 The dynamic of this system is given by two ODEs
 
-$$(m_{1}+m_{2})L_{1}(L_{1} \ddot{\theta}_ {1}+g\sin{\theta_{1}}+m_{2} L_{1} L_{2}\[\ddot{theta} _{2} cos{(\theta _{1}-\theta _{2})}\dot{\theta}^{2} _{2} \sin{(\theta _{1}-\theta _{2})}\]=0$$
+$$(m_{1}+m_{2})L_{1}(L_{1} \ddot{\theta}_ {1}+g\sin{\theta_{1}})+m_{2} L_{1} L_{2}\[\ddot{theta} _{2} cos{(\theta _{1}-\theta _{2})}\dot{\theta}^{2} _{2} \sin{(\theta _{1}-\theta _{2})}\]=0$$
 
 
 ![DoublePendulumAnimation](https://github.com/user-attachments/assets/a4c06ce3-de69-459f-8b84-a8531d59c398)
