@@ -1,4 +1,4 @@
-# DoublePendulum
+# DoublePendulumMasses
 Code to simulate the dynamics of a double pendulum with two masses.
 
 ## Problem
