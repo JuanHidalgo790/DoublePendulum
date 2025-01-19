@@ -5,7 +5,8 @@ Code to simulate the dynamics of a double pendulum with two masses.
 
 A double pendulum consisting of two bars, without weight, linking two masses $m_{1}$ and $m_{2}$.
 
-![DoublePendulumFigure](https://github.com/user-attachments/assets/6b5305c5-9738-41c6-831c-0379659b78f8)
+
+![figura_massas_thetas](https://github.com/user-attachments/assets/17d609ad-c9c4-4789-ab1c-304e018abe0f)
 
 
 The dynamic of this system is given by two ODEs
