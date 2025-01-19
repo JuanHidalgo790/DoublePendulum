@@ -20,8 +20,8 @@ Giving the parameters and the appropriate initial conditions, we get the animati
 
 
 ![DoublePendulumDynamicResponseMass1](https://github.com/user-attachments/assets/acc3b37d-76fb-4ac4-9e37-3c74dffe681a)
-![DoublePendulumDynamicResponseMass2](https://github.com/user-attachments/assets/d8181a1a-b8c9-4884-b40d-c649e13655aa)
 ![DoublePendulumPhaseDiagramMass1](https://github.com/user-attachments/assets/90ff2668-cd6f-4d4f-bd68-a0536ed7fc35)
+![DoublePendulumDynamicResponseMass2](https://github.com/user-attachments/assets/d8181a1a-b8c9-4884-b40d-c649e13655aa)
 ![DoublePendulumPhaseDiagramMass2](https://github.com/user-attachments/assets/a1ed7425-a9a7-4e71-bf17-3480bf7a8907)
 
 ## Input Parameters
