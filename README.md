@@ -13,7 +13,7 @@ The dynamic of this system is given by two ODEs
 
 $$(m_{1}+m_{2})L_{1} \ddot{\theta}_ {1} +m_{2} L_{2} \cos{(\theta _{1}-\theta _{2})} \ddot{\theta} _{2} +m _{2} L _{2} \sin{(\theta _{1}-\theta _{2})} \dot{\theta}^{2} _{2} +(m _{1} + m _{2})g\sin{\theta _{1}}=0$$
 
-$$m _{2} l _{2} \ddot{\theta} _{1} +m _{2} l _{1} \[\ddot{\theta} _{1} \cos{(\theta _{1}-\theta _{2})}-\dot{\theta}^{2} _{1} \sin{(\theta _{1}-\theta _{2})}\]+ m _{2} g\sin{\theta _{2}}=0$$
+$$m _{2} L _{2} \ddot{\theta} _{2} + m _{2} L _{1} \cos{(\theta _{1}-\theta _{2})} \ddot{\theta} _{1} -m _{2} L _{1} \sin{(\theta _{1}-\theta _{2})}\dot{\theta}^{2} _{1} + m _{2} g \sin{\theta _{2}}=0$$
 
 Giving the parameters and the appropriate initial conditions, we get the animation, the dynamic plots, and the phase diagrams!
 
