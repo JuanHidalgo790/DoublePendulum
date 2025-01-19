@@ -27,6 +27,8 @@ Giving the parameters and the appropriate initial conditions, we get the animati
 
 ## Input Parameters
 
+### Constants
+
 $m_{1}$ - mass 1 [kg]
 
 $m_{2}$ - mass 2 [kg]
@@ -35,7 +37,7 @@ $l_{1}$ - length of bar 1 [m]
 
 $l_{2}$ - length of bar 2 [m]
 
-## Time of the simulation
+### Time of the simulation
 
 $t_{0}$ - initial time [s]
 
@@ -43,7 +45,7 @@ $t_{f}$ - final time [s]
 
 $\Delta t$ - timestep [s]
 
-## Initial Conditions
+### Initial Conditions
 
 $\theta_{1}^{0}$ - initial angle 1 [rad]
 
