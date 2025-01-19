@@ -33,9 +33,9 @@ $m_{1}$ - mass 1 [kg]
 
 $m_{2}$ - mass 2 [kg]
 
-$l_{1}$ - length of bar 1 [m]
+$L_{1}$ - length of bar 1 [m]
 
-$l_{2}$ - length of bar 2 [m]
+$L_{2}$ - length of bar 2 [m]
 
 ### Time of the simulation
 
