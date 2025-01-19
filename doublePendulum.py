@@ -24,11 +24,11 @@ tspan = np.linspace(t0, tf, nt)         # time span [s]
 
 ## Initial Conditions ######################################################################################
 theta1 = np.pi/4        # initial angle of bar 1 [rad]
+theta2 = 2*np.pi/4      # initial angle of bar 2 [rad]
 dtheta1 = 0             # initial angular velocity of bar 1 [rad/s]
-theta2 = 2*np.pi/4        # initial angle of bar 2 [rad]
 dtheta2 = -np.pi/4      # initial angular velocity of bar 2 [rad/s]
 
-Y0 = [theta1, dtheta1, theta2, dtheta2]                       # initial conditions vector
+Y0 = [theta1, theta2, dtheta1, dtheta2]                       # initial conditions vector
 ###########################################################################################################
 ###########################################################################################################
 
@@ -82,7 +82,7 @@ ax.set_axisbelow(True)
 
 # plot of the phase diagram of mass 1
 fig, ax = plt.subplots()
-plt.plot(Y[:,0], Y[:,1], 'g')
+plt.plot(Y[:,0], Y[:,2], 'g')
 ax.set_title('Phase Diagram of Mass 1')
 ax.set_xlabel('x(t) [m]')
 ax.set_ylabel('xdot(t) [m/s]')
@@ -91,7 +91,7 @@ ax.set_axisbelow(True)
 
 # plot of the dynamic response of mass 2
 fig, ax = plt.subplots()
-plt.plot(tspan, Y[:,2],'r')
+plt.plot(tspan, Y[:,1],'r')
 ax.set_title('Dynamic Response of Mass 2')
 ax.set_xlabel('t [s]')
 ax.set_ylabel('x(t) [m]')
@@ -100,7 +100,7 @@ ax.set_axisbelow(True)
 
 # plot of the phase diagram of mass 2
 fig, ax = plt.subplots()
-plt.plot(Y[:,2], Y[:,3], 'g')
+plt.plot(Y[:,1], Y[:,3], 'g')
 ax.set_title('Phase Diagram of Mass 2')
 ax.set_xlabel('x(t) [m]')
 ax.set_ylabel('xdot(t) [m/s]')
