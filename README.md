@@ -16,13 +16,7 @@ $$m _{2} l _{2} \ddot{\theta} _{1} +m _{2} l _{1} l _{2}\[\ddot{\theta} _{1} cos
 
 Giving the parameters and the appropriate initial conditions, we get the animation, the dynamic plots, and the phase diagrams!
 
-![DoublePendulumAnimation](https://github.com/user-attachments/assets/a4c06ce3-de69-459f-8b84-a8531d59c398)
 
-
-![DoublePendulumDynamicResponseBar1](https://github.com/user-attachments/assets/a8655ed6-88c0-42d9-ae98-6fce0f142d78)
-![DoublePendulumPhaseDiagramBar1](https://github.com/user-attachments/assets/f5cb7a36-de21-44b0-b6ab-c9fc9c8ef8b5)
-![DoublePendulumDynamicResponseBar2](https://github.com/user-attachments/assets/a63df65a-4b0f-421a-b070-db172b53f855)
-![DoublePendulumPhaseDiagramBar2](https://github.com/user-attachments/assets/fc2da819-7a95-4237-bd3b-486d4777c706)
 
 ## Input Parameters
 
